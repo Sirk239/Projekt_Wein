@@ -43,7 +43,6 @@ import static java.util.logging.Level.parse;
 
 public class MainActivity extends AppCompatActivity {
 
-    DatabaseHelper myDb;
 
     private ZXingScannerView zXingScannerView;
 
@@ -92,26 +91,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Datenbank
-        myDb = new DatabaseHelper(this);
 
-      /*  FragmentManager fm = getSupportFragmentManager();
+
+        FragmentManager fm = getSupportFragmentManager();
         android.support.v4.app.FragmentTransaction transaction = fm.beginTransaction();
-        FragmentEinstellungen fragmentEinstellungen = new FragmentEinstellungen();
+        SucheFrag sucheFrag = new SucheFrag();
 
-        transaction.add(R.id.content, fragmentEinstellungen);
+        transaction.add(R.id.content, sucheFrag);
         transaction.commit();
 
-        /*Logo in Action Bar integrieren
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setIcon(R.drawable.logo_white_margin);*/
 
-
-
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
+        //Slide-Effekt weg
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
     }
