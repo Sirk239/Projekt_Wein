@@ -3,6 +3,7 @@ package com.example.louis.weinschmecker_v2;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.arch.persistence.room.Room;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -33,6 +34,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Log;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
@@ -109,10 +112,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        List <WineEntity> wineEntities = new ArrayList();
 
+        WineEntity entity = new WineEntity();
+        //entity.scanID; //muss noch integriert werden
+        wineEntities.add(entity);
 
-
-
+        WineDatabase wineDatabase = Room.databaseBuilder(getApplicationContext(), WineDatabase.class, "wineDatebase").build();
+        wineDatabase.wineDao().insertAll(wineEntities);
+    }
 
     public void onSelectFragment (View view){
 

@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.dirk.weinschmecker_v2.R;
 
 /**
  * Created by louis on 28.11.2017.
