@@ -12,6 +12,8 @@ import java.util.List;
  * Created by Dirk on 13.12.2017.
  */
 
+/*HALLO*/
+
 @Dao
 public interface WineDao {
 
