@@ -30,6 +30,13 @@
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
+
+        <provider
+            android:name="android.arch.lifecycle.LifecycleRuntimeTrojanProvider"
+            android:authorities="com.example.dirk.weinschmecker_v2.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+
         <meta-data
             android:name="android.arch.lifecycle.VERSION"
             android:value="27.0.0-SNAPSHOT" />

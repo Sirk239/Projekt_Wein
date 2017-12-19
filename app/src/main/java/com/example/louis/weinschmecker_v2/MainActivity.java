@@ -1,53 +1,23 @@
 package com.example.louis.weinschmecker_v2;
 
-import android.Manifest;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.arch.persistence.room.Room;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.os.Bundle;
-
-import com.google.zxing.Result;
-
-import android.content.Intent;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.util.Log;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
-
-import static android.Manifest.permission_group.CAMERA;
-import static java.util.logging.Level.parse;
 
 
 public class MainActivity extends AppCompatActivity {
 
 
     private ZXingScannerView zXingScannerView;
+
+    private static final String TAG = MainActivity.class.getName();
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -110,11 +80,19 @@ public class MainActivity extends AppCompatActivity {
         //Slide-Effekt weg
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
+        //Datenbank
+        /**super.onCreate(savedInstanceState);
+        ActivityMainBinding activityMainBinding = DataBaseUtils.setContentView(this, R.layout.activity_main);
+
+        activityMainBinding.clickHereBtn.setOnClickListener(view ->
+                DatabaseInitializer.populateAsync(WineDatabase.getWineDatabase(this))
+        );*/
+
     }
 
     @Override
     protected void onStart() {
-        super.onStart();
+        /**super.onStart();
         List <WineEntity> wineEntities = new ArrayList();
 
         WineEntity entity = new WineEntity();
@@ -122,10 +100,10 @@ public class MainActivity extends AppCompatActivity {
         wineEntities.add(entity);
 
         WineDatabase wineDatabase = Room.databaseBuilder(getApplicationContext(), WineDatabase.class, "wineDatebase").build();
-        wineDatabase.wineDao().insertAll(wineEntities);
+        wineDatabase.wineDao().insertAll((WineEntity) wineEntities);*/
     }
 
-    public void onSelectFragment (View view){
+    public void onSelectFragment (View view) {
 
         Fragment newFragment;
 
@@ -144,6 +122,11 @@ public class MainActivity extends AppCompatActivity {
         transaction.addToBackStack(null);
         transaction.commit();
     }
+        //Datenbank
+        protected void onDestroy(){
+            WineDatabase.destroyInstance();
+            super.onDestroy();
+        }
 
 }
 

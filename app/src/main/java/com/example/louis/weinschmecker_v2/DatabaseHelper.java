@@ -1,4 +1,4 @@
-package com.example.louis.weinschmecker_v2;
+/**package com.example.louis.weinschmecker_v2;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 
 
-public class DatabaseHelper extends SQLiteOpenHelper{
+/**public class DatabaseHelper extends SQLiteOpenHelper{
 
     public static final String DATABASE_NAME ="Wein.db";
     public static final String TABLE_NAME ="wein_table";
@@ -29,6 +29,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     public static final String COL_11 ="BEWERTUNGZAHL";
     public static final String COL_12 ="BILD";
     public static final String COL_13 ="CONTENT";
+    public static final String COL_14 ="GEMERKT";
 
 
 
@@ -40,7 +41,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table " + TABLE_NAME +" (ID INTEGER PRIMARY KEY AUTOINCREMENT,NAME TEXT,JAHRGANG TEXT,LAND TEXT,PREIS INTEGER,RICHTUNG TEXT,ART TEXT,LADEN TEXT,SERVIERVORSCHLAG TEXT,BEWERTUNGTEXT TEXT,BEWERTUNGZAHL INTEGER,CONTENT TEXT,BILD TEXT)");
+        db.execSQL("create table " + TABLE_NAME +" (ID INTEGER PRIMARY KEY AUTOINCREMENT,NAME TEXT,JAHRGANG TEXT,LAND TEXT,PREIS INTEGER,RICHTUNG TEXT,ART TEXT,LADEN TEXT,SERVIERVORSCHLAG TEXT,BEWERTUNGTEXT TEXT,BEWERTUNGZAHL INTEGER,CONTENT TEXT,BILD TEXT, GEMERKT TEXT)");
 
     }
 
@@ -51,3 +52,4 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
     }
 }
+*/
