@@ -1,4 +1,4 @@
-package com.example.louis.weinschmecker_v2;
+package com.example.louis.weinschmecker_v2.database.entity;
 
 /**
  * Created by Dirk on 12.12.2017.
@@ -7,52 +7,52 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity(tableName="wein")
+@Entity(tableName="wineEntity")
 public class WineEntity {
 
-    @PrimaryKey(autoGenerate=true)
+    @PrimaryKey(autoGenerate = true)
     private int uid;
 
-    @ColumnInfo(name="scanID")
+    @ColumnInfo(name = "scanID")
     public int scanID;
 
-    @ColumnInfo(name="weinName")
+    @ColumnInfo(name = "weinName")
     public String weinName;
 
-    @ColumnInfo(name="jahrgang")
+    @ColumnInfo(name = "jahrgang")
     public String jahrgang;
 
-    @ColumnInfo(name="land")
+    @ColumnInfo(name = "land")
     public String land;
 
-    @ColumnInfo(name="preis")
+    @ColumnInfo(name = "preis")
     public int preis;
 
-    @ColumnInfo(name="minPreis")
+    @ColumnInfo(name = "minPreis")
     public int minPreis;
 
-    @ColumnInfo(name="maxPreis")
+    @ColumnInfo(name = "maxPreis")
     public int maxPreis;
 
-    @ColumnInfo(name="geschmack")
+    @ColumnInfo(name = "geschmack")
     public String geschmack;
 
-    @ColumnInfo(name="art")
+    @ColumnInfo(name = "art")
     public String art;
 
-    @ColumnInfo(name="laden")
+    @ColumnInfo(name = "laden")
     public String laden;
 
-    @ColumnInfo(name="bewertungsZahl")
+    @ColumnInfo(name = "bewertungsZahl")
     public int bewertungsZahl;
 
-    @ColumnInfo(name="bild")
+    @ColumnInfo(name = "bild")
     public String bild;
 
-    @ColumnInfo(name="content")
+    @ColumnInfo(name = "content")
     public String content;
 
-    @ColumnInfo(name="gemerkt")
+    @ColumnInfo(name = "gemerkt")
     public boolean gemerkt;
 
 

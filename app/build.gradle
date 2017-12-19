@@ -2,10 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.example.dirk.weinschmecker_v2"
         minSdkVersion 17
-        targetSdkVersion 23
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -29,6 +30,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
 
     compile 'me.dm7.barcodescanner:zxing:1.9'
 
@@ -42,6 +44,11 @@ dependencies {
 
     //datenbank
     compile "de.hdodenhof:circleimageview:$rootProject.circleImageViewVersion"
+    compile 'android.arch.persistence.room:runtime:1.0.0'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.0.0'
+
+    // picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
 
     //D2
     compile "com.google.dagger:dagger-android-support:$rootProject.daggerVersion"
@@ -55,6 +62,7 @@ dependencies {
     compile "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
 
     annotationProcessor "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
+    //noinspection GradleDependency
     compile "android.arch.lifecycle:runtime:$rootProject.archLifecycleVersion"
     compile "android.arch.lifecycle:extensions:$rootProject.archLifecycleVersion"
 

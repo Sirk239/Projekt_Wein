@@ -1,10 +1,10 @@
-package com.example.louis.weinschmecker_v2;
+/** package com.example.louis.weinschmecker_v2;
 
 /**
  * Created by Betti on 17.12.17.
  */
 
-import android.os.AsyncTask;
+/**import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
@@ -14,12 +14,14 @@ public class DatabaseInitializer {
 
     private static final String TAG = DatabaseInitializer.class.getName();
 
-    static void populateAsync(@NonNull final WineDatabase db) {
+    public static void populateAsync(@NonNull final WineDatabase db) {
         PopulateDbAsync task = new PopulateDbAsync(db);
         task.execute();
     }
 
-    private static void populateSync(@NonNull final WineDatabase db) { populateWithTestData(db);}
+    public static void populateSync(@NonNull final WineDatabase db) {
+        populateWithTestData(db);
+    }
 
     private static WineEntity addWine(final WineDatabase db, WineEntity wineEntity){
         db.wineDao().insertAll(wineEntity);
@@ -62,3 +64,5 @@ public class DatabaseInitializer {
     }
 
 }
+
+*/

@@ -6,13 +6,20 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.louis.weinschmecker_v2.database.entity.WineEntity;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
-
 public class MainActivity extends AppCompatActivity {
+
+    private RecyclerView recyclerView;
 
 
     private ZXingScannerView zXingScannerView;
@@ -81,18 +88,55 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
         //Datenbank
-        /**super.onCreate(savedInstanceState);
-        ActivityMainBinding activityMainBinding = DataBaseUtils.setContentView(this, R.layout.activity_main);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
-        activityMainBinding.clickHereBtn.setOnClickListener(view ->
-                DatabaseInitializer.populateAsync(WineDatabase.getWineDatabase(this))
-        );*/
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                List<WineEntity> wineEntities = App.get().getDB().wineDao().getAll();
+                boolean force = App.get().isForceUpdate();
+                if (force || wineEntities.isEmpty()) {
+                    retrieveWineEntities();
+                } else {
+                    populateWineEntities(wineEntities);
+                }
+            }
+        }).start();
 
     }
 
-    @Override
+    private void retrieveWineEntities() {
+        List<WineEntity> list = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            WineEntity wineEntity = new WineEntity();
+            wineEntity.setweinName("WineEntity {String.valueOf(i)}");
+            wineEntity.setBild("http://lorempixel.com/500/500/technics/" + i);
+            wineEntity.setPreis(i == 0 ? 50 : i * 100);
+            list.add(wineEntity);
+        }
+
+        // insert product list into database
+        App.get().getDB().wineDao().insertAll(list);
+
+        // disable flag for force update
+        App.get().setForceUpdate(false);
+
+        populateWineEntities(list);
+    }
+
+    private void populateWineEntities(final List<WineEntity> wineEntities) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                recyclerView.setAdapter(new WineAdapter(wineEntities));
+            }
+        });
+    }
+
+    /**@Override
     protected void onStart() {
-        /**super.onStart();
+        super.onStart();
         List <WineEntity> wineEntities = new ArrayList();
 
         WineEntity entity = new WineEntity();
@@ -100,8 +144,10 @@ public class MainActivity extends AppCompatActivity {
         wineEntities.add(entity);
 
         WineDatabase wineDatabase = Room.databaseBuilder(getApplicationContext(), WineDatabase.class, "wineDatebase").build();
-        wineDatabase.wineDao().insertAll((WineEntity) wineEntities);*/
-    }
+        wineDatabase.wineDao().insertAll((WineEntity) wineEntities);
+    }*/
+
+
 
     public void onSelectFragment (View view) {
 
@@ -122,11 +168,6 @@ public class MainActivity extends AppCompatActivity {
         transaction.addToBackStack(null);
         transaction.commit();
     }
-        //Datenbank
-        protected void onDestroy(){
-            WineDatabase.destroyInstance();
-            super.onDestroy();
-        }
 
 }
 

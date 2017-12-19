@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ffea8334928a6b04917bb1b4db4ac7bf\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -31,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ffea8334928a6b04917bb1b4db4ac7bf\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
