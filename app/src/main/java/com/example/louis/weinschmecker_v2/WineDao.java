@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Dirk on 13.12.2017.
  */
 
-/*HALLO1*/
+/*HALLO12*/
 
 @Dao
 public interface WineDao {
