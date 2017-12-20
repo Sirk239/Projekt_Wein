@@ -18,6 +18,14 @@
         android:layout_marginBottom="?android:attr/actionBarSize">
 
 
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            app:layoutManager="GridLayoutManager"
+            app:spanCount="2"
+            tools:listitem="@layout/view_list_item" />
     </FrameLayout>
 
     <android.support.design.widget.BottomNavigationView
@@ -38,15 +46,6 @@
         android:layout_alignParentTop="true"
         android:background="@color/colorHellrot"
         android:minHeight="?attr/actionBarSize"/>
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="1dp"
-        app:layoutManager="GridLayoutManager"
-        app:spanCount="2"
-        tools:listitem="@layout/view_list_item"/>
 
     <ImageButton
         android:id="@+id/btnSettings"
