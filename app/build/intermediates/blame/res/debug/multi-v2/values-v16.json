@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/Betti/Projekt_Wein/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\985eb24607d54048565f2dfcbc7452ea\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c32292b9f6af7cf312e164265353aa2e/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ffea8334928a6b04917bb1b4db4ac7bf\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -92,6 +92,40 @@
                 },
                 {
                     "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\Dirk\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\2b505978d805dab8b179367cc75ef5b0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ffea8334928a6b04917bb1b4db4ac7bf\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\985eb24607d54048565f2dfcbc7452ea\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

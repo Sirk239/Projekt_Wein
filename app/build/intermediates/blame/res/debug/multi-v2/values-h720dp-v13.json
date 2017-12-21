@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\Dirk\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\Dirk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\94291b80d867f4b3f85e2fd68ffff12e\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
@@ -16,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\Dirk\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "/Users/Betti/Projekt_Wein/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\Dirk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\94291b80d867f4b3f85e2fd68ffff12e\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

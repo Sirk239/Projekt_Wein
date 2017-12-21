@@ -1,6 +1,36 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/Betti/Projekt_Wein/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\louis\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
@@ -20,21 +50,6 @@
             "map": [
                 {
                     "source": "/Users/Betti/Desktop/Projekt_Wein/C:\\Users\\Dirk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\94291b80d867f4b3f85e2fd68ffff12e\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Betti/Desktop/Projekt_Wein/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-night-v8/values-night-v8.xml",
-            "map": [
-                {
-                    "source": "/Users/Betti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a254e3c35a4f4036021469dfaba2acfb/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

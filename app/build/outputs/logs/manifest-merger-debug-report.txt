@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/Betti/.gradle/caches/transforms-1/files-1.1/zxing-1.9.aar/6a0798ad77261a961556334dbca81dc5/AndroidManifest.xml:2:1-13:12
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Betti/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/7a65ada1da4b49a7699cd7c09f0aa13d/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.dagger:dagger-android-support:2.11] /Users/Betti/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.11.aar/25f49adfb7e8272ea9d40931107eff93/AndroidManifest.xml:16:1-19:12
@@ -31,29 +31,29 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Bett
 MERGED from [android.arch.core:runtime:1.0.0-alpha5] /Users/Betti/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha5.aar/5f0afad57adbc897896f7be80a42fff4/AndroidManifest.xml:17:1-26:12
 MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha5] /Users/Betti/.gradle/caches/transforms-1/files-1.1/support-db-impl-1.0.0-alpha5.aar/1d564472311c80461468bbfbabc2afb5/AndroidManifest.xml:17:1-26:12
 MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha5] /Users/Betti/.gradle/caches/transforms-1/files-1.1/support-db-1.0.0-alpha5.aar/653f8a500bd71e9e074d405f03dd2a5f/AndroidManifest.xml:17:1-26:12
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:3:5-49
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:5:5-64
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:5:5-64
 	android:name
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:5:22-62
 application
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:9:5-22:19
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:9:5-22:19
 MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/Betti/.gradle/caches/transforms-1/files-1.1/zxing-1.9.aar/6a0798ad77261a961556334dbca81dc5/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/Betti/.gradle/caches/transforms-1/files-1.1/zxing-1.9.aar/6a0798ad77261a961556334dbca81dc5/AndroidManifest.xml:11:5-20
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Betti/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/7a65ada1da4b49a7699cd7c09f0aa13d/AndroidManifest.xml:9:5-20
@@ -95,35 +95,35 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Betti/.gradle/caches/t
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Betti/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e0fa6d3d18c30223d41554142837aa81/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Betti/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e0fa6d3d18c30223d41554142837aa81/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:11:9-39
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:11:9-39
 	android:allowBackup
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.example.louis.weinschmecker_v2.MainActivity
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:16:9-21:20
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:16:9-21:20
 	android:name
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:17:13-20:29
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/Betti/.gradle/caches/transforms-1/files-1.1/zxing-1.9.aar/6a0798ad77261a961556334dbca81dc5/AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/Betti/.gradle/caches/transforms-1/files-1.1/zxing-1.9.aar/6a0798ad77261a961556334dbca81dc5/AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/Betti/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/7a65ada1da4b49a7699cd7c09f0aa13d/AndroidManifest.xml:5:5-7:41
@@ -178,18 +178,18 @@ MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha5] /Users/
 MERGED from [android.arch.persistence.room:support-db-impl:1.0.0-alpha5] /Users/Betti/.gradle/caches/transforms-1/files-1.1/support-db-impl-1.0.0-alpha5.aar/1d564472311c80461468bbfbabc2afb5/AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha5] /Users/Betti/.gradle/caches/transforms-1/files-1.1/support-db-1.0.0-alpha5.aar/653f8a500bd71e9e074d405f03dd2a5f/AndroidManifest.xml:22:5-24:41
 MERGED from [android.arch.persistence.room:support-db:1.0.0-alpha5] /Users/Betti/.gradle/caches/transforms-1/files-1.1/support-db-1.0.0-alpha5.aar/653f8a500bd71e9e074d405f03dd2a5f/AndroidManifest.xml:22:5-24:41
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /Users/Betti/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/91425253746a8a18c0cba737153800d2/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Betti/Desktop/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Betti/Projekt_Wein/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:mediarouter-v7:26.1.0] /Users/Betti/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.1.0.aar/b3598349b5f24519c11a73dc8f0ad645/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:design:26.1.0] /Users/Betti/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/91425253746a8a18c0cba737153800d2/AndroidManifest.xml:26:9-28:38
