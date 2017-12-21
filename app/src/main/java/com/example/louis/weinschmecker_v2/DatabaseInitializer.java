@@ -4,29 +4,29 @@ package com.example.louis.weinschmecker_v2;
  * Created by Betti on 17.12.17.
  */
 
+import android.app.Activity;
+import android.arch.persistence.room.Room;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.util.Log;
+import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseInitializer {
 
     private static final String TAG = DatabaseInitializer.class.getName();
 
-    static void populateAsync(@NonNull final WineDatabase db) {
-        PopulateDbAsync task = new PopulateDbAsync(db);
-        task.execute();
-    }
+    private WineDao mWineDao;
 
-    private static void populateSync(@NonNull final WineDatabase db) { populateWithTestData(db);}
-
-    private static WineEntity addWine(final WineDatabase db, WineEntity wineEntity){
-        db.wineDao().insertAll(wineEntity);
+    private static WineEntity addWine(final WineDatabase db, WineEntity wineEntity) {
+        db.wineDao().insert(wineEntity);
         return wineEntity;
     }
 
-    private static void populateWithTestData(WineDatabase db) {
+    private List<WineEntity> populateWithTestData() {
+        List<WineEntity> wineEntities = new ArrayList<>();
         WineEntity wineEntity = new WineEntity();
         wineEntity.setScanID(42141204);
         wineEntity.setweinName("jjjj");
@@ -39,26 +39,35 @@ public class DatabaseInitializer {
         wineEntity.setBild("jjjj");
         wineEntity.setContent("jjjj");
         wineEntity.setGemerkt(false);
-        addWine(db, wineEntity);
+        wineEntities.add(wineEntity);
 
-        List<WineEntity> wineEntityList = db.wineDao().getAll();
-        Log.d(DatabaseInitializer.TAG, "Rows Count: " + wineEntityList.size());
+        return wineEntities;
     }
 
-    private static class PopulateDbAsync extends AsyncTask<Void, Void, Void> {
 
-        private final WineDatabase mDb;
+    public void populateDatabase(WineDatabase wineDatabase) {
 
-        PopulateDbAsync(WineDatabase db) {
-            mDb = db;
-        }
+        mWineDao = wineDatabase.wineDao();
+        final List<WineEntity> wineEntities = populateWithTestData();
+
+        PopulateWineTask populateWineTask = new PopulateWineTask();
+        populateWineTask.execute(wineEntities);
+
+    }
+
+    public void insertWineEntities(List<WineEntity> wineEntities){
+       mWineDao.insertAll(wineEntities);
+    }
+
+    private class PopulateWineTask extends AsyncTask<ArrayList<WineEntity>, WineEntity, List<WineEntity>> {
+
+        
 
         @Override
-        protected Void doInBackground(final Void... params) {
-            populateWithTestData(mDb);
+        protected List<WineEntity> doInBackground(ArrayList<WineEntity>[] arrayLists) {
+            arrayLists[0].
             return null;
         }
-
     }
 
 }

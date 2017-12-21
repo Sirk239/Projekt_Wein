@@ -23,11 +23,13 @@ public interface WineDao {
     @Query("SELECT * FROM wein where scanID LIKE  :scanID")
     WineEntity findByID(int scanID);
 
-    @Query("SELECT * FROM wein WHERE preis BETWEEN :minPreis and :maxPreis")
-
+    //@Query("SELECT * FROM wein WHERE preis BETWEEN :minPreis and :maxPreis")
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insertAll(WineEntity...wineEntities);
+    void insert(WineEntity wineEntity);
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void insertAll(List<WineEntity> wineEntities);
 
     @Delete
     void delete(WineEntity wineEntity);

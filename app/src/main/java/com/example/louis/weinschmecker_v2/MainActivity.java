@@ -1,5 +1,6 @@
 package com.example.louis.weinschmecker_v2;
 
+import android.arch.persistence.room.Room;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -8,6 +9,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
@@ -80,27 +84,15 @@ public class MainActivity extends AppCompatActivity {
         //Slide-Effekt weg
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
-        //Datenbank
-        /**super.onCreate(savedInstanceState);
-        ActivityMainBinding activityMainBinding = DataBaseUtils.setContentView(this, R.layout.activity_main);
-
-        activityMainBinding.clickHereBtn.setOnClickListener(view ->
-                DatabaseInitializer.populateAsync(WineDatabase.getWineDatabase(this))
-        );*/
-
     }
 
     @Override
     protected void onStart() {
-        /**super.onStart();
-        List <WineEntity> wineEntities = new ArrayList();
-
-        WineEntity entity = new WineEntity();
-        //entity.scanID; //muss noch integriert werden
-        wineEntities.add(entity);
+        super.onStart();
+        DatabaseInitializer databaseInitializer = new DatabaseInitializer();
 
         WineDatabase wineDatabase = Room.databaseBuilder(getApplicationContext(), WineDatabase.class, "wineDatebase").build();
-        wineDatabase.wineDao().insertAll((WineEntity) wineEntities);*/
+        databaseInitializer.populateDatabase(wineDatabase);
     }
 
     public void onSelectFragment (View view) {

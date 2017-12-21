@@ -1,4 +1,4 @@
-#Tue Dec 12 11:56:26 CET 2017
-base.0=C\:\\Users\\Dirk\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38
+#Thu Dec 21 18:52:06 CET 2017
+base.0=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/63
+path.0=classes.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\Dirk\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38\\classes.dex

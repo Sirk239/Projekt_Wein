@@ -1,4 +1,19 @@
-#Wed Dec 13 20:10:25 CET 2017
-base.0=C\:\\Users\\Dirk\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\62
+#Thu Dec 21 18:52:07 CET 2017
+path.1=classes.dex
+path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\Dirk\\AndroidStudioProjects\\Weinschmecker_v2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\62\\classes.dex
+base.5=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/77
+base.4=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/74
+base.3=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/79
+base.2=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/76
+base.1=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/78
+base.0=/Users/Betti/Projekt_Wein/app/build/intermediates/transforms/dexMerger/debug/75
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex
